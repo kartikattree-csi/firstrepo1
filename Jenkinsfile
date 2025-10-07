@@ -43,7 +43,7 @@ pipeline{
             }
 
         }
-/*
+
         stage("Sonarqube Analysis") {
             steps {
                 script {
@@ -54,7 +54,7 @@ pipeline{
             }
 
         }
-
+/*
         stage("Quality Gate") {
             steps {
                 script {
