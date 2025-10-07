@@ -63,7 +63,7 @@ pipeline{
             }
 
         }
-
+/*
         stage("Build & Push Docker Image") {
             steps {
                 script {
@@ -79,7 +79,7 @@ pipeline{
             }
 
         }
-/*
+
         stage("Trivy Scan") {
             steps {
                 script {
